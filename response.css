@@ -1,0 +1,117 @@
+@media (max-width: 480px) {
+
+.navbar{
+    height: 10vh;
+}
+
+.navbar nav{
+    display: none;
+}
+
+.logo{
+    padding-left: 1rem;
+}
+
+.icons{
+    margin-right: 1rem;
+}
+
+.main_container{
+    /* display: flex; */
+}
+
+.main_heading{
+    width: auto;
+    font-size: 1rem;
+    left: 1rem;
+    text-align: center;
+    top: 25rem;
+}
+
+.main_heading h1{
+    margin-bottom: 2rem;
+}
+
+.about_container{
+    flex-flow: column;
+    width: 95vw;
+}
+
+.about_text{
+    height: 40vh;
+}
+
+.about_text h2{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.about_text p{
+    padding-left: 1rem;
+}
+
+.learn_more_btn{
+    margin: 1rem;
+}
+
+.card_container{
+    width: 95vw;
+}
+
+.card{
+    min-width: 95vw;
+    min-height: 35vh;
+}
+
+.product_container{
+    width: 95vw;
+}
+
+.product_card{
+    min-width: 95vw;
+    min-height: 50vh;
+}
+
+.review_container{
+    width: 95vw;
+}
+
+.review_card{
+    min-width: 95vw;
+    min-height: 50vh;
+}
+
+.review_text{
+    padding: 1rem;
+    font-size: 1rem;
+}
+.contact_container{
+    width: 95vw;
+}
+
+
+footer{
+    height: 45vh;
+}
+
+.social_icons{
+    /* blblb */
+    width: 85vw;
+}
+
+.links{
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links a{
+    width: 45%;
+    margin-top: 1rem;
+}
+
+.links .blog_btn{
+    display: none;
+}
+
+}

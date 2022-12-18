@@ -48,6 +48,7 @@
 
 .about_text p{
     padding-left: 1rem;
+    padding-bottom: 0;
 }
 
 .learn_more_btn{
@@ -70,6 +71,10 @@
 .product_card{
     min-width: 95vw;
     min-height: 50vh;
+}
+
+.product_img{
+    margin-top: 1rem;
 }
 
 .review_container{

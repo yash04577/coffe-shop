@@ -34,8 +34,10 @@ nav a {
   margin: 0 .8rem;
 }
 
+
 .navbar a:hover{
   color: #bb8d39;
+  cursor: pointer;
 }
 
 .logo {
@@ -376,4 +378,14 @@ button:hover{
   /* color: red; */
   width: 300px;
   height: 70px;
+  cursor: pointer;
+}
+
+.search_item{
+  display: none;
+  position: absolute;
+  right: 190px;
+  top: 30px;
+  width: 220px;
+  height: 35px;
 }

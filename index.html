@@ -18,18 +18,19 @@
       <img src="images/logo.png" alt="logo" />
     </a>
     <nav>
-      <a href="#" class="color-white">Home</a>
-      <a href="#" class="color-white">About</a>
-      <a href="#" class="color-white">Menu</a>
-      <a href="#" class="color-white">Products</a>
-      <a href="#" class="color-white">Review</a>
-      <a href="#" class="color-white">Contact</a>
-      <a href="#" class="color-white">Blogs</a>
+      <a class="color-white" onclick="go_home()">Home</a>
+      <a class="color-white" onclick="go_about()">About</a>
+      <a class="color-white" onclick="go_menu()">Menu</a>
+      <a class="color-white" onclick="go_products()">Products</a>
+      <a class="color-white" onclick="go_review()">Review</a>
+      <a class="color-white" onclick="go_contact()">Contact</a>
+      <a class="color-white">Blogs</a>
     </nav>
     <div class="icons flex">
-      <div class="search_btn">
+      <input type="text" class="search_item" placeholder="Search Here" id="search_bar">
+      <div class="search_btn" id="search_btn">
         <a href="#">
-          <img src="images/search_icon.png" width="40px" height="40px" alt="search" />
+          <img src="images/search_icon.png" width="40px" height="40px" alt="search "/>
         </a>
       </div>
       <div class="cart_btn">
@@ -272,6 +273,7 @@
         <h2>Created By Mr. Yash Kumar Prajapati | All Rights Reserved</h2>
       </div>
   </footer>
+  <script src="app.js"></script>
 </body>
 
 </html>
